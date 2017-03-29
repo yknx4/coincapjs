@@ -1,7 +1,7 @@
 {
-  "name": "npm-module-boilerplate-es6",
+  "name": "Coincap.js",
   "version": "1.0.0",
-  "description": "Boilerplate for npm modules.",
+  "description": "Javascript wrapper for Coincap.io socket api",
   "main": "./lib/index.js",
   "scripts": {
     "clean": "rimraf lib",
@@ -19,21 +19,23 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Travelport-Ukraine/npm-module-boilerplate.git"
+    "url": "git+https://github.com/yknx4/coincapjs.git"
   },
   "keywords": [
-    "boilerplate",
+    "coincap",
     "npm",
     "module",
     "node",
-    "javascript"
+    "javascript",
+    "cryptocoins",
+    "bitcoin"
   ],
-  "author": "Mark mail.ormark@gmail.com",
-  "license": "MIT",
+  "author": "Ale Figueroa me@ale.world",
+  "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/Travelport-Ukraine/npm-module-boilerplate/issues"
+    "url": "https://github.com/yknx4/coincapjs.git/issues"
   },
-  "homepage": "https://github.com/Travelport-Ukraine/npm-module-boilerplate#readme",
+  "homepage": "https://github.com/yknx4/coincapjs.git#readme",
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-cli": "^6.14.0",
@@ -51,5 +53,9 @@
     "istanbul": "^1.0.0-alpha",
     "mocha": "^3.0.2",
     "rimraf": "^2.5.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "socket.io-client": "^1.7.3"
   }
 }
